@@ -16,14 +16,14 @@
 | Protoboard    | PROTOBOARD 170F TOWER | 1 | R$6.90 |
 | Jumper        | JUMPER MACHO X MACHO 20CM TOWER | 5 | R$0.70 |
 ## Explicação para os componentes
-&nbsp;&nbsp;&nbsp;&nbsp;Transformador:<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Diodos: O conjunto de 4 diodos forma uma ponte retificadora que alimenta a fonte independentemente do ciclo da corrente alternada. <br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Capacitor:<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;LED: O LED indica se uma corrente está passando pelo circuito no momento. Esse componente não serve propósito prático na corrente.<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Diodo Zenner: O Zener é um regulador que irá limitar a tensão máxima da corrente que o atravessa em 13V. Caso a tensão seja menor que o limite, o componente não irá agir.<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Potenciômetro: Possibilita o controle da tensão da fonte por meio de uma resistência variável. Por meio deste, a fonte alcança uma tensão mínima e máxima de 3V e 12V, respectivamente.<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Resistor: Os resistores limitam o fluxo da corrente a fim de impedir danos aos componentes da fonte.<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Transistor:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Transformador**:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Diodos**: O conjunto de 4 diodos forma uma ponte retificadora que alimenta a fonte independentemente do ciclo da corrente alternada. <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Capacitor**:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;**LED**: O LED indica se uma corrente está passando pelo circuito no momento. Esse componente não serve propósito prático na corrente.<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Diodo Zenner**: O Zener é um regulador que irá limitar a tensão máxima da corrente que o atravessa em 13V. Caso a tensão seja menor que o limite, o componente não irá agir.<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Potenciômetro**: Possibilita o controle da tensão da fonte por meio de uma resistência variável. Por meio deste, a fonte alcança uma tensão mínima e máxima de 3V e 12V, respectivamente.<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Resistor**: Os resistores limitam o fluxo da corrente a fim de impedir danos aos componentes da fonte.<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Transistor**:<br><br>
 ## Simulação no Falstad
 &nbsp;&nbsp;&nbsp;&nbsp;![Print da simulação](Imagens/falstad.svg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Link da simulação: https://tinyurl.com/2xr4mxyp
