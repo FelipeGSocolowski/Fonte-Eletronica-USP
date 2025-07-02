@@ -37,7 +37,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp; $i_{Total} \space = \space \sum{i} \space = \space 116,72mA$
 ### Capacitor
 &nbsp;&nbsp;&nbsp;&nbsp; $V_{Ripple} \space = \space 24,2V \space × \space 0,04 \space = \space 0,97V$<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp; $Capacitor \space = \space \frac{0,1167A}{60 \space × \space 2 \space × \space 0,97V} \space = \space 0.001F \space = \space 1000\mu F$<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $Capacitor \space = \space \frac{i_{Total}}{f \space × \space 2 \space × \space V_{Ripple}} \space = \space \frac{0,1167A}{60 \space × \space 2 \space × \space 0,97V} \space = \space 0.001F \space = \space 1000\mu F$<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp; ***Como queremos um ripple de 4%, escolhemos um capacitor de 1000µF.***
 ## Simulação no Falstad
 &nbsp;&nbsp;&nbsp;&nbsp;![Print da simulação](Imagens/falstad.svg)<br><br>
