@@ -33,12 +33,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp; $V_{1} \space = \space 179,6V \space × \space \frac{18,1V}{127V} \space = \space 25,6V$<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp; $V_{2} \space = \space 25,6V \space - \space 1,4V \space = \space 24,2V$
 ### Corrente da Fonte
-&nbsp;&nbsp;&nbsp;&nbsp; $i_{LED} \space = \space 9,64mA, \space \space \space i_{Zener} \space = \space 2,7mA, \space \space \space i_{Potenciômetro} \space = \space 1,85mA, \space \space \space i_{Carga} \space = \space 101,65mA$<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp; $i_{Total} \space = \space \sum{i} \space = \space 115,84mA$
+&nbsp;&nbsp;&nbsp;&nbsp; $i_{LED} \space = \space 10,01mA, \space \space \space i_{Zener} \space = \space 3,21mA, \space \space \space i_{Potenciômetro} \space = \space 1,8mA, \space \space \space i_{Carga} \space = \space 101,7mA$<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $i_{Total} \space = \space \sum{i} \space = \space 116,72mA$
 ### Capacitor
-&nbsp;&nbsp;&nbsp;&nbsp; $V_{Ripple} \space = \space 24,2V \space × \space 0,1 \space = \space 2,42V$<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp; $Capacitor \space = \space \frac{0,116A}{60 \space × \space 2 \space × \space 2,42V} \space = \space 0.000400F \space = \space 400\mu F$<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp; ***Como queremos um ripple ainda menor, escolhemos um capacitor de 1000µF.***
+&nbsp;&nbsp;&nbsp;&nbsp; $V_{Ripple} \space = \space 24,2V \space × \space 0,04 \space = \space 0,97V$<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $Capacitor \space = \space \frac{0,1167A}{60 \space × \space 2 \space × \space 2,42V} \space = \space 0.001F \space = \space 1000\mu F$<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; ***Como queremos um ripple de 4%, escolhemos um capacitor de 1000µF.***
 ## Simulação no Falstad
 &nbsp;&nbsp;&nbsp;&nbsp;![Print da simulação](Imagens/falstad.svg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;**Link da simulação**: https://tinyurl.com/2xr4mxyp
