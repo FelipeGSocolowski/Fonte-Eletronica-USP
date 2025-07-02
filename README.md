@@ -26,6 +26,19 @@
 &nbsp;&nbsp;&nbsp;&nbsp;**Resistor**: Os resistores limitam o fluxo da corrente a fim de impedir danos aos componentes da fonte.<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;**Transistor**: Ajusta a corrente a ser alimentada pela fonte enquanto regula a corrente que atravessa o zener.
 ## Cálculos
+### Tensão da Fonte
+&nbsp;&nbsp;&nbsp;&nbsp; $V_{Fonte} \space = \space 127V$<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $V_{Pico} \space = \space 127V \space × \space \sqrt{2} \space = \space 179,6V$<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $Razão_{T} \space = \space \frac{18,1V}{127V}$<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $V_{1} \space = \space 179,6V \space × \space \frac{18,1V}{127V} \space = \space 25,6V$<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $V_{2} \space = \space 25,6V \space - \space 1,4V \space = \space 24,2V$
+### Corrente da Fonte
+&nbsp;&nbsp;&nbsp;&nbsp; $i_{LED} \space = \space 9,64mA, \space \space \space i_{Zener} \space = \space 2,7mA, \space \space \space i_{Potenciômetro} \space = \space 1,85mA, \space \space \space i_{Carga} \space = \space 101,65mA$<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $i_{Total} \space = \space \sum{i} \space = \space 115,84mA$
+### Capacitor
+&nbsp;&nbsp;&nbsp;&nbsp; $V_{Ripple} \space = \space 24,2V \space × \space 0,1 \space = \space 2,42V$<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; $Capacitor \space = \space \frac{0,116A}{60 \space × \space 2 \space × \space 2,42V} \space = \space 0.000400F \space = \space 400\mu F$<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp; ***Como queremos um ripple ainda menor, escolhemos um capacitor de 1000µF.***
 ## Simulação no Falstad
 &nbsp;&nbsp;&nbsp;&nbsp;![Print da simulação](Imagens/falstad.svg)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;**Link da simulação**: https://tinyurl.com/2xr4mxyp
