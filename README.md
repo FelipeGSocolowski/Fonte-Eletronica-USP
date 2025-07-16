@@ -43,7 +43,7 @@
 [Vídeo](https://youtu.be/zeleTUzRUyo)
 ## Simulação no Falstad
 &nbsp;&nbsp;&nbsp;&nbsp;![Print da simulação](Imagens/falstad.svg)<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;**Link da simulação**: https://tinyurl.com/2xr4mxyp
+&nbsp;&nbsp;&nbsp;&nbsp;**Link da simulação**: [Falstad](https://tinyurl.com/yr87l575)
 ## Eagle
 | Esquemático | PCB |
 | :-: | :-: |
